@@ -1,23 +1,24 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from "next/head";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
+import MeetingList from "./meetinglist";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Southwest Michigan Area NA Meetings</title>
+        <link rel="icon" href="/NALogoSunburst.gif" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          <MeetingList />
         </p>
       </main>
 
       <Footer />
     </div>
-  )
+  );
 }

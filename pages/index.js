@@ -13,9 +13,9 @@ export default function Home() {
 
       <main>
         <Header />
-        <p className="description">
+        <div>
           <MeetingList />
-        </p>
+        </div>
       </main>
 
       <Footer />

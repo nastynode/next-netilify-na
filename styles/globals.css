@@ -21,11 +21,10 @@ main {
 }
 
 .app-header {
-  position: sticky; /* or fixed */
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
-  position: absolute;
   background: #ffffff;
   border-bottom: 1px solid #ddd;
 
@@ -53,11 +52,10 @@ main {
 }
 
 .app-footer {
-  position: sticky; /* sticks to bottom when scrolling */
+  position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 900;
-  position: absolute;
   background: #ffffff;
   border-top: 1px solid #ddd;
 
